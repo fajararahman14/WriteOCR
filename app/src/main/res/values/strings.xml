@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WriteOCR</string>
+    <string name="no_permission">Tidak mendapat izin akses.</string>
+    <string name="failed_to_save_image">Gagal menyimpan gambar</string>
+    <string name="failed_to_open_camera">Gagal membuka kamera</string>
+    <string name="btn_capture_image">Capture image</string>
+    <string name="btn_switch_camera">Switch camera</string>
+    <string name="scannow">Scan Tulisan</string>
+    <string name="image_not_found">Coba Lagi</string>
+    <string name="terjadi_kesalahan">Service Sedang Dinyalakan, Silahkan Coba Lagi!</string>
+    <string name="iv_empty">Gambar tidak ada! gunakan kamera / ambil dari gallery</string>
+    <string name="hasil_label">Hasil Label</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lapisan untuk bentuk dasar -->
+    <item>
+        <shape android:shape="oval">
+            <!-- Atur warna latar belakang sesuai kebutuhan -->
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!-- Lapisan untuk gambar -->
+    <item
+        android:drawable="@drawable/baseline_camera"
+        android:gravity="center"
+        android:width="30dp"
+        android:height="30dp"
+        android:top="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:bottom="4dp" />
+
+</layer-list>
