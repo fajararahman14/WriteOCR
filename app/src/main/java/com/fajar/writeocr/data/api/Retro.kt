@@ -1,5 +1,6 @@
 package com.fajar.writeocr.data.api
 
+import com.fajar.writeocr.BuildConfig
 import com.google.gson.GsonBuilder
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -13,13 +14,9 @@ class Retro {
     fun getRetroClientInstance(): Retrofit {
         val gson = GsonBuilder().setLenient().create()
         return Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(BuildConfig.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
-    }
-
-    companion object {
-        private const val BASE_URL = "https://tulis-tangan-573933772937.us-central1.run.app" // API DEPLOY ML AKUN BANGKIT (Cloud Run)
     }
 
 }
